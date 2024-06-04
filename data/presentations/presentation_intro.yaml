@@ -1,0 +1,100 @@
+#### 一般(研究者以外)向け研究発表一覧 ####
+# type: 講演種別(oral)
+# invited: 依頼講演か(false,true)
+# names: 著者名
+# names_en: 著者名 (英語/必要あれば)
+# title: 題目
+# title_en: 題目 (英語/あれば)
+# presentation_date: 発表年月日
+# event: 
+#   name: イベント名
+#   name_en: イベント名 (英語/あれば)
+#   organizer: 主催者
+#   url: イベントのホームページ
+#   place: [イベント開催地, 都市, 国]
+#   place_ja: [イベント開催地, 都市, 国]（日本語）
+#   date:
+#     begin: イベント会期（始/あれば）
+#     end: イベント会期（終/あれば）
+#   others: 備考（あれば）
+#####################
+
+########## 2021 ##########
+- type: oral
+  invited: true
+  names: [杉山 亜矢斗,深井 洋佑,上山 純,尾崎 遼]
+  title: "見る 聞く 触る 現場からまなぶ自動化の実際"
+  presentation_date: 2021/12/18
+  event:
+      name: "Laboratory Automation Developers Conference 2021"
+      url: https://laboratoryautomation.connpass.com/event/224912/
+      place: [Online]
+      place_ja: [オンライン]
+      date:
+          begin: 2021/12/18
+          end: 2021/12/18
+
+########## 2018 ##########
+- type: oral
+  invited: false
+  names: 深井洋佑
+  title: 乱流転移: 物理学130年の謎
+  presentation_date: 2018/11/23
+  event: 
+    name: "東京大学 駒場祭 講演企画 「10分で伝えます！東大研究最前線」"
+    organizer: 東京大学の大学院生・若手研究者有志
+    url: https://ut-10min.github.io
+    place: [the University of Tokyo, Tokyo, Japan]
+    place_ja: [東京大学, 東京, 日本]
+    date:
+      begin: 2018/11/23
+      end: 2018/11/25
+
+- type: oral
+  invited: false
+  names: 深井洋佑
+  title: 物理学者、バクテリアコロニーに挑む！
+  presentation_date: 2018/05/19
+  event: 
+    name: "東京大学 五月祭 講演企画 「10分で伝えます！東大研究最前線」"
+    organizer: 東京大学の大学院生・若手研究者有志
+    url: https://ut-10min.github.io
+    place: [the University of Tokyo, Tokyo, Japan]
+    place_ja: [東京大学, 東京, 日本]
+    date:
+      begin: 2018/05/19
+      end: 2018/05/20
+
+########## 2017 ##########
+- type: oral
+  invited: false
+  names: 深井洋佑
+  title: 普遍性の話、またはコーヒーの染みと渋滞をめぐって
+  presentation_date: 2017/05/20
+  event: 
+    name: "東京大学 五月祭 講演企画 「10分で伝えます！東大研究最前線」"
+    organizer: 東京大学の大学院生・若手研究者有志
+    url: https://ut-10min.github.io
+    place: [the University of Tokyo, Tokyo, Japan]
+    place_ja: [東京大学, 東京, 日本]
+    date:
+      begin: 2017/05/20
+      end: 2017/05/21
+
+########## 2016 ##########
+- type: oral
+  invited: false
+  names: 深井洋佑
+  title: 成長するデコボコ
+  presentation_date: 2016/08/03
+  event: 
+    name: "東京大学理学部 オープンキャンパス2016 講演企画「物理学とは何だろうか？」"
+    organizer: 東京大学理学部物理学科
+    url: https://www.s.u-tokyo.ac.jp/ja/event/open-campus/2016/
+    place: [the University of Tokyo, Tokyo, Japan]
+    place_ja: [東京大学, 東京, 日本]
+    date:
+      begin: 2016/08/03
+      end: 2016/08/03
+    others: 企画No. 83-020
+

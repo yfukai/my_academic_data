@@ -1,0 +1,751 @@
+#### 研究発表一覧 ####
+# international: 国際的な催し/外国での発表か(false,true)
+# review: 査読があるか(false,true)
+# type: 講演種別(oral_conference,oral_seminar,poster_conference)
+# invited: 招待講演か(false,true)
+# lang: 講演言語(en,ja)
+# names: 著者名
+# names_en: 著者名 (英語/必要あれば)
+# presentor_id: 発表者id(1,2,3...)
+# title: 題目
+# title_en: 題目 (英語/あれば)
+# number: 発表番号 （あれば）
+# presentation_date: 発表年月日
+# (会議の場合)
+# conference: 
+#   name: 会議名
+#   name_en: 会議名 (英語/あれば)
+#   url: 会議のホームページ
+#   place: [会議開催地, 都市, 国]
+#   place_ja: [会議開催地, 都市, 国]（日本語）
+#   date:
+#     begin: 会議会期（始）
+#     end: 会議会期（終）
+# (セミナーの場合)
+# seminar: 
+#   name: セミナー名（optional）
+#   group: セミナー主催研究室
+#   group_ja: セミナー主催研究室（日本語）
+#   place: セミナー開催地
+#   place_ja: セミナー開催地（日本語）
+#####################
+
+#国際会議（2024）
+
+- international: true
+  review: true
+  type: poster_conference
+  invited: false
+  lang: en
+  names: [Yohsuke T. Fukai, Kyogo Kawaguchi]
+  presentor_id: 1
+  title: "Reconstitution and characterization of long chromatin array with defined nucleosome modification patterns and positional barcodes"
+  number: P-11
+  conference:
+      name: "RIKEN BDR Symposium 2024"
+      url: https://www2.bdr.riken.jp/sympo/2024/
+      place: [RIKEN Center for Biosystems Dynamics Research, Kobe, Japan]
+      place_ja: [理化学研究所 生命機能科学研究センター, 神戸, 日本]
+      date:
+          begin: 2024/03/04
+          end: 2024/03/06
+  presentation_date: 2024/03/04
+
+#国際会議（2023）
+
+- international: true
+  review: true
+  type: poster_conference
+  invited: false
+  lang: en
+  names: [Yohsuke T. Fukai, Kyogo Kawaguchi]
+  presentor_id: 1
+  title: "Single-molecule observation of long chromatin array reveals modification-pattern-dependent fluctuations"
+  number: PSb-69
+  conference:
+      name: "28th International Conference on Statistical Physics, Statphys28"
+      url: https://statphys28.org/
+      place: [the University of Tokyo, Tokyo, Japan]
+      place_ja: [東京大学, 東京, 日本]
+      date:
+          begin: 2023/08/07
+          end: 2023/08/11
+  presentation_date: 2023/08/07
+
+- international: true
+  review: true
+  type: poster_conference
+  invited: false
+  lang: en
+  names: [Yohsuke T. Fukai, Kyogo Kawaguchi]
+  presentor_id: 1
+  title: "Reconstitution and observation of long chromatin array with defined nucleosome modification patterns"
+  number: P-05
+  conference:
+      name: "RIKEN BDR Symposium 2023"
+      url: https://www2.bdr.riken.jp/sympo/2023/
+      place: [RIKEN Center for Biosystems Dynamics Research, Kobe, Japan]
+      place_ja: [理化学研究所 生命機能科学研究センター, 神戸, 日本]
+      date:
+          begin: 2023/03/07
+          end: 2023/03/09
+  presentation_date: 2023/03/07
+
+#国際会議（2022）
+
+- international: true
+  review: true
+  type: poster_conference
+  invited: false
+  lang: en
+  names: [Tingying Peng, Yohsuke Fukai, Timothy Morello, Nicholas Schaub, Yu Liu]
+  presentor_id: 2
+  title: "BaSiCPy - a Python tool for microscopy illumination correction"
+  presentation_date: 2022/07/05
+  conference: 
+    name: "Bioengineering Solutions for Biology and Medicine 2022"
+    url: https://bioeng2022.helmholtz-muenchen.de/
+    place: [Haus der Bayerischen Wirtschaft, Munich, Germany]
+    date:
+      begin: 2022/07/04 
+      end: 2022/07/06 
+
+- international: true
+  review: false
+  type: oral_seminar
+  invited: true
+  lang: en
+  names: [Yohsuke T. Fukai]
+  presentor_id: 1
+  title: "Software development toward fine-tunable and automatable bioimage analysis in Python"
+  presentation_date: 2022/06/27
+  seminar: 
+    group: "Tingying Peng Group"
+    place: [Helmholtz Munich (Online), Munich, Germany]
+
+
+- international: true
+  review: true
+  type: poster_conference
+  invited: false
+  lang: en
+  names: [Yohsuke T. Fukai, Kyogo Kawaguchi]
+  presentor_id: 1
+  title: "Reconstituting and observing long chromatin with defined nucleosome modification patterns"
+  number: P12-B
+  conference:
+      name: "RIKEN BDR Symposium 2022"
+      url: https://www2.bdr.riken.jp/sympo/2022/
+      place: [Online]
+      date:
+          begin: 2022/03/01
+          end: 2022/03/03
+  presentation_date: 2022/03/02
+
+
+#国内会議（2020）
+- international: false
+  review: false
+  type: oral_conference
+  invited: false
+  lang: ja
+  names: [Yohsuke T. Fukai, Kazumasa A. Takeuchi]
+  presentor_id: 1
+  title: "曲がった初期条件のもとでのKardar-Parisi-Zhang 界面と変分公式"
+  title_en: "Kardar-Parisi-Zhang interfaces with curved initial conditions and variational formula"
+  number: 17aK29-8
+  conference:
+      name: "2020年 日本物理学会75回年次大会"
+      name_en: "2020 75th Annual Meeting of The Physical Society of Japan"
+      url: http://www.jps.or.jp/activities/meetings/past.php
+      place: [Nagoya University, Nagoya, Japan]
+      place_ja: [名古屋大学, 福岡, 日本]
+      date:
+          begin: 2020/03/16
+          end: 2020/03/19
+  presentation_date: 2019/03/17
+
+#国際会議（2019）
+- international: true
+  review: true
+  type: oral_conference
+  invited: false
+  lang: en
+  names: [Yohsuke T. Fukai, Keiichi Tamai, Hiroki Yamaguchi, Tetsuya Hiraiwa]
+  presentor_id: 1
+  title: "Universal interface fluctuations for absorbing-state phase transitions"
+  conference:
+      name: "27th International Conference on Statistical Physics, Statphys27"
+      url: https://statphys27.df.uba.ar
+      place: [Auditorios UCA Puerto Madero, Buenos Aires, Argentina]
+      date:
+          begin: 2019/07/08
+          end: 2019/07/12
+  presentation_date: 2019/07/12
+
+- international: true
+  review: false
+  type: oral_conference
+  invited: false
+  lang: en
+  names: [Yohsuke T. Fukai, Masaki Sano]
+  presentor_id: 1
+  title: "Large-scale flow out of spatiotemporal chaos in electroconvection of cholesteric liquid crystal"
+  number: F29.00008
+  conference:
+      name: "APS March Meeting 2019"
+      url: http://meetings.aps.org/Meeting/MAR19
+      place: [Boston Convention & Exhibition Center, Massachusetts, USA]
+      date:
+          begin: 2019/03/04
+          end: 2019/03/08
+  presentation_date: 2019/03/05
+
+#国内会議（2019）
+- international: false
+  review: false
+  type: poster_conference
+  invited: false
+  lang: en
+  names: [Yohsuke T. Fukai]
+  presentor_id: 1
+  title: "Interface formed by duplicating particles (+α)"
+  conference:
+      name: "BDR Retreat 2019"
+      place: [Awaji Yumebutai, Awaji, Japan]
+      place_ja: [淡路夢舞台, 淡路, 日本]
+      date:
+          begin: 2019/10/08
+          end: 2019/10/09
+  presentation_date: 2019/10/08
+
+- international: false
+  review: false
+  type: poster_conference
+  invited: false
+  lang: ja
+  names: [深井洋佑]
+  names_en: [Yohsuke T. Fukai]
+  presentor_id: 1
+  title: "クロマチン構造転移の理解に向けた再構成実験系(+α)"
+  title_en: "Reconstituted experimental system toward understanding of chromatin structure transitions (+α)"
+  conference:
+      name: "新学術領域 情報物理学でひもとく生命の秩序と設計原理 第1回領域会議"
+      name_en: "First meeting for MEXT Grant-in-Aid for Scientific Res. on Innovative Areas, 'Information physics of living matters'"
+      url: http://infophys-bio.jp/event.html
+      place: [Plaza Verde Numazu, Numazu, Japan]
+      place_ja: [静岡県総合コンベンション施設 プラザ・ヴェルデ沼津,沼津,日本]
+      date:
+          begin: 2019/10/02
+          end: 2019/10/03
+  presentation_date: 2019/10/02
+
+- international: false
+  review: false
+  type: oral_seminar
+  invited: true
+  lang: en
+  names: [Yohsuke T. Fukai]
+  presentor_id: 1
+  title: "Kardar-Parisi-Zhang universal fluctuations with curved initial conditions"
+  seminar: 
+      group: "Maeda Laboratory"
+      place: [Kyushu University, Fukuoka, Japan]
+  presentation_date: 2019/07/25
+
+- international: false
+  review: false
+  type: poster_conference
+  invited: false
+  lang: ja
+  names: [深井洋佑,玉井敬一,山口裕樹,平岩徹也]
+  names_en: [Yohsuke T. Fukai, Keiichi Tamai, Hiroki Yamaguchi, Tetsuya Hiraiwa]
+  presentor_id: 1
+  title: "分裂する粒子のつくる界面ゆらぎ"
+  title_en: "Interface fluctuations formed by duplicating particles"
+  conference:
+      name: "遺伝子制御の基盤となるクロマチンポテンシャル 第1回ワークショップ"
+      name_en: "First workshop for MEXT Grant-in-Aid for Scientific Res. on Innovative Areas, 'Chromatin Potential'"
+      url: http://www.nibb.ac.jp/potentia/activity/index.html
+      place: [Hotel Takeshima, Gamagori, Japan]
+      place_ja: [ホテル竹島, 蒲郡, 日本]
+      date:
+          begin: 2019/06/20
+          end: 2019/06/22
+  presentation_date: 2019/06/20
+
+- international: false
+  review: false
+  type: poster_conference
+  invited: false
+  lang: ja
+  names: [深井洋佑,玉井敬一,山口裕樹,平岩徹也]
+  names_en: [Yohsuke T. Fukai, Keiichi Tamai, Hiroki Yamaguchi, Tetsuya Hiraiwa]
+  presentor_id: 1
+  title: "分裂する粒子のつくる界面ゆらぎ"
+  title_en: "Interface fluctuations formed by duplicating particles"
+  conference:
+      name: "2019年度生物の3Ｄ形態を構築するロジック班会議"
+      name_en: "2019 Group meeting for MEXT Grant-in-Aid for Scientific Res. on Innovative Areas, '3D Morphologic'"
+      url: https://www.3d-logic.info/
+      place: [Jozankei View Hotel, Sapporo, Japan]
+      place_ja: [定山渓ビューホテル, 札幌, 日本]
+      date:
+          begin: 2019/06/16
+          end: 2019/06/18
+  presentation_date: 2019/06/17
+
+- international: false
+  review: false
+  type: oral_conference
+  invited: false
+  lang: ja
+  names: [深井洋佑,玉井敬一,山口裕樹,平岩徹也]
+  names_en: [Yohsuke T. Fukai, Keiichi Tamai, Hiroki Yamaguchi, Tetsuya Hiraiwa]
+  presentor_id: 1
+  title: "吸収状態相転移における普遍的界面ゆらぎ"
+  title_en: "Universal interface fluctuations for absorbing state phase transitions"
+  number: 14pG213-2
+  conference:
+      name: "2019年 日本物理学会74回年次大会"
+      name_en: "2019 74th Annual Meeting of The Physical Society of Japan"
+      url: http://www.jps.or.jp/activities/meetings/past.php
+      place: [Kyushu University, Fukuoka, Japan]
+      place_ja: [九州大学, 福岡, 日本]
+      date:
+          begin: 2019/03/14
+          end: 2019/03/17
+  presentation_date: 2019/03/14
+
+
+#国際会議（2018）
+- international: true
+  review: false
+  type: poster_conference
+  invited: false
+  lang: en
+  names: [Yohsuke T. Fukai, Kazumasa A. Takeuchi]
+  presentor_id: 1
+  title: "Universal Kardar-Parisi-Zhang fluctuations with finite-curvature initial conditions"
+  conference:
+      name: "International Conference on Advances in Physics of Emergent orders in Fluctuations"
+      url: https://apef2018.org/
+      place: [the University of Tokyo, Tokyo, Japan]
+      date:
+          begin: 2018/11/12
+          end: 2018/11/15
+  presentation_date: 2018/11/12
+
+- international: true
+  review: false
+  type: oral_seminar
+  invited: true
+  lang: en
+  names: [Yohsuke T. Fukai]
+  presentor_id: 1
+  title: "Emergence of large-scale planer flow in electroconvection of cholesteric liquid crystal"
+  seminar: 
+      group: "Katsonis Research Group"
+      place: [University of Twente, Enschede, Netherlands]
+  presentation_date: 2018/02/05
+
+- international: true
+  review: false
+  type: poster_conference
+  invited: false
+  lang: en
+  names: [Yohsuke T. Fukai, Masaki Sano]
+  presentor_id: 1
+  title: "Large-scale flow in electroconvection of cholesteric liquid crystal"
+  conference:
+      name: "Fundamental Problems in Active Matter"
+      url: http://fpam.msc.univ-paris-diderot.fr/
+      place: [Aspen Center for Physics, Colorado, USA]
+      date:
+          begin: 2018/01/29
+          end: 2018/02/02
+  presentation_date: 2018/01/29
+
+#国内会議（2018）
+- international: false
+  review: false
+  type: poster_conference
+  invited: false
+  lang: ja
+  names: [深井洋佑, 佐野雅己]
+  names_en: [Yohsuke T. Fukai, Masaki Sano]
+  presentor_id: 1
+  title: "コレステリック液晶の電気対流で起こる大スケール流れ"
+  title_en: "Large-scale flow in electroconvection of cholesteric liquid crystal"
+  conference:
+      name: "第17回　関東ソフトマター研究会"
+      name_en: "17th Kanto Soft Matter Workshop"
+      url: https://noguchi.issp.u-tokyo.ac.jp/ks
+      place: [the University of Tokyo, Tokyo, Japan]
+      place_ja: [東京大学 物性研究所, 東京, 日本]
+      date:
+          begin: 2018/08/07
+          end: 2018/08/07
+  presentation_date: 2018/08/07
+
+
+#国内会議（2017）
+- international: false
+  review: false
+  type: oral_conference
+  invited: false
+  lang: ja
+  names: [深井洋佑, 佐野雅己]
+  names_en: [Yohsuke T. Fukai, Masaki Sano]
+  presentor_id: 1
+  title: "コレステリック液晶の電気対流で生じる大スケール平面流"
+  title_en: "Large-scale planar flow in electroconvection of cholesteric liquid crystal"
+  number: 21pN23-6
+  conference:
+      name: "2017年 日本物理学会秋季大会"
+      name_en: "2017 Autumn Meeting of The Physical Society of Japan"
+      url: http://www.jps.or.jp/activities/meetings/past.php
+      place: [Iwate University, Morioka, Japan]
+      place_ja: [岩手大学, 盛岡, 日本]
+      date:
+          begin: 2017/09/21
+          end: 2017/09/24
+  presentation_date: 2017/09/21
+
+- international: false
+  review: false
+  type: poster_conference
+  invited: false
+  lang: ja
+  names: [深井 洋佑,竹内 一将]
+  names_en: [Yohsuke T. Fukai, Kazumasa A. Takeuchi]
+  presentor_id: 1
+  title: "Fluctuation of ingrowing Kardar-Parisi-Zhang interfaces"
+  conference:
+      name: "ゆらぎと構造の協奏 第4回領域研究会"
+      name_en: 'Grant-in-Aid for Innovative Area "Synergy of Fluctuation & Structure", 4th Meeting'
+      url: http://sfs-dynamics.jp/kenkyukai/20170623/index.html
+      place: [The University of Tokyo, Tokyo, Japan]
+      place_ja: [東京大学, 東京, 日本]
+      date:
+          begin: 2017/06/23
+          end: 2017/06/24
+  presentation_date: 2017/06/23
+
+#国際会議（2016）
+- international: true
+  review: false
+  type: oral_conference
+  invited: true
+  lang: en
+  names: [Yosuke Fukai, Kazumasa A. Takeuchi]
+  presentor_id: 1
+  title: "Kardar-Parisi-Zhang interfaces with curved initial conditions -- what exists \"between\" the universality subclasses?"
+  number: Session B
+  conference:
+      name: "International Workshop on Stochastic Thermodynamics and Active Matters"
+      url: http://www.itp.ac.cn/~zhouhj/ActiveStatPhys2016Workshop.pdf
+      place: [Institute of Physics - Chinese Academy of Sciences, Beijing, China]
+      place_ja:
+      date:
+          begin: 2016/08/15
+          end: 2016/08/16
+  presentation_date: 2016/08/15
+
+- international: true
+  review: false
+  type: poster_conference
+  invited: false
+  lang: en
+  names: [Yosuke Fukai, Kazumasa A. Takeuchi]
+  presentor_id: 1
+  title: "Between universality subclasses: numerical and experimental results for KPZ interfaces with curved initial conditions"
+  number: P-2-39
+  conference:
+      name: "26th International Conference on Statistical Physics, Statphys26"
+      url: https://statphys26.sciencesconf.org/
+      place: [Centre de Congrès de Lyon, Lyon, France]
+      place_ja:
+      date:
+          begin: 2016/07/18
+          end: 2016/07/22
+  presentation_date: 2016/07/18
+
+- international: true
+  review: false
+  type: oral_conference
+  invited: false
+  lang: en
+  names: [Yosuke Fukai, Kazumasa A. Takeuchi]
+  presentor_id: 1
+  title: "Crossover between Kardar-Parisi-Zhang Subclasses in Interfaces with Curved Initial Conditions"
+  conference:
+      name: "Non-equilibrium dynamics in classical and quantum systems: From quenches to slow relaxations"
+      url: http://gps.ijl.univ-lorraine.fr/Groupe_Physique_Statistique/GPS2/conf/phystat26/index.php
+      place: [Abbaye des Prémontrés, Pont-à-Mousson, France]
+      place_ja:
+      date:
+          begin: 2016/07/13
+          end: 2016/07/15
+  presentation_date: 2016/07/13
+      
+#国内会議・セミナー（2016）
+
+- international: false
+  review: false
+  type: oral_conference
+  invited: false
+  lang: ja
+  names: [深井 洋佑]
+  names_en: [Yohsuke T. Fukai]
+  presentor_id: 1
+  title: "Experimental and numerical investigations on curved Kardar-Parisi-Zhang interfaces -- Tracy-Widom distributions and more"
+  conference:
+      name: "Kick off Meeting for Stochastic Analysis on Infinite Particle Systems (無限粒子系の確率解析学)"
+      url: http://www2.math.kyushu-u.ac.jp/~osada-labo/kick-off/index.html
+      place: [Kyushu University, Fukuoka, Japan]
+      place_ja: [九州大学, 福岡, 日本]
+      date:
+          begin: 2017/01/23
+          end: 2017/01/25
+  presentation_date: 2017/01/25
+
+- international: false
+  review: false
+  type: oral_seminar
+  invited: true
+  lang: ja
+  names: [深井 洋佑]
+  names_en: [Yohsuke T. Fukai]
+  presentor_id: 1
+  title: "Kardar-Parisi-Zhang 普遍サブクラスと「内向き成長」界面"
+  title_en: 'Kardar-Parisi-Zhang universality subclasses and "ingrowing" interfaces'
+  seminar:
+      name: "中大物理 香取研・脇田研合同セミナー"
+      group: "Katori Laboratory and Wakita Laboratory"
+      group_ja: "香取研究室・脇田研究室"
+      place: [Chuo University, Tokyo, Japan]
+      place_ja: [中央大学, 東京, 日本]
+  presentation_date: 2016/12/6
+
+- international: false
+  review: false
+  type: oral_conference
+  invited: false
+  lang: ja
+  names: [深井 洋佑,竹内 一将]
+  names_en: [Yosuke Fukai, Kazumasa A. Takeuchi]
+  presentor_id: 1
+  title: "時空カオスの摂動の初期条件依存性とKardar-Parisi-Zhang界面"
+  title_en: "Initial condition dependence of perturbations to spatiotemporal chaos and Kardar-Parisi-Zhang interfaces"
+  number: 19aBC-4
+  conference:
+      name: "2016年 日本物理学会71回年次大会"
+      name_en: "2016 71st Annual Meeting of The Physical Society of Japan"
+      url: http://www.jps.or.jp/activities/meetings/past.php
+      place: [Tohoku Gakuin University, Sendai, Japan]
+      place_ja: [東北学院大学泉キャンパス, 仙台, 日本]
+      date:
+          begin: 2016/03/19
+          end: 2016/03/22
+  presentation_date: 2016/03/19
+
+- international: false
+  review: false
+  type: oral_conference
+  invited: false
+  lang: ja
+  names: [深井 洋佑,竹内 一将]
+  names_en: [Yosuke Fukai, Kazumasa A. Takeuchi]
+  presentor_id: 1
+  title: "液晶電気乱流中の界面成長過程における普遍クラスと界面初期条件"
+  title_en: "Universality subclasses of growing interfaces in liquid crystal electroconvection and initial conditions"
+  conference:
+      name: "平成27年度物性研究所短期研究会 量子乱流と古典乱流の邂逅"
+      name_en: "Meeting between Quantum Turbulence and Classical Turbulence"
+      url: http://yamashita.issp.u-tokyo.ac.jp/tanki160105/
+      place: [the University of Tokyo, Tokyo, Japan]
+      place_ja: [東京大学 物性研究所, 東京, 日本]
+      date:
+          begin: 2016/01/05
+          end: 2016/01/07
+  presentation_date: 2016/01/07
+
+#国際会議（2015）
+- international: true
+  review: false
+  type: poster_conference
+  invited: false
+  lang: en
+  names: [Yosuke Fukai, Kazumasa A. Takeuchi]
+  presentor_id: 1
+  title: "Curved KPZ interface in liquid crystal electroconvection and numerical model"
+  number: Day2-#5
+  conference:
+      name: "iCeMS International Symposium Hierarchical Dynamics in Soft Materials and Biological Matter"
+      url: http://www.icems.kyoto-u.ac.jp/e/rsch/smnr/2015/09/23-iis19.html
+      place: [Kyoto University, Kyoto, Japan]
+      place_ja: [京都大学, 京都, 日本]
+      date:
+          begin: 2015/09/23
+          end: 2015/09/26
+  presentation_date: 2015/09/25
+
+- international: true
+  review: false
+  type: poster_conference
+  invited: false
+  lang: en
+  names: [Yosuke Fukai, Kazumasa A. Takeuchi]
+  presentor_id: 1
+  title: "Kardar-Parisi-Zhang interfaces with finite curvature"
+  number: PB102
+  conference:
+      name: "SFS2015 International Symposium on Fluctuation and Structure out of Equilibrium 2015"
+      url: http://sfs-dynamics.jp/sfs2015/
+      place: [Kyoto University, Kyoto, Japan]
+      place_ja: [京都大学, 京都, 日本]
+      date:
+          begin: 2015/08/20
+          end: 2015/08/23
+  presentation_date: 2015/08/22
+
+- international: true
+  review: false
+  type: poster_conference
+  invited: false
+  lang: en
+  names: [Yosuke Fukai, Kazumasa A. Takeuchi]
+  presentor_id: 1
+  title: "Experimental and numerical approaches to universality in growing scale-invariant interfaces"
+  conference:
+      name: "Summer school: Stochastic processes and random matrices"
+      url: http://lptms.u-psud.fr/workshop/randmat/
+      place: [École de Physique des Houches, les Houches, France]
+      date:
+          begin: 2015/07/06
+          end: 2015/07/31
+  presentation_date: 2015/07/09
+
+- international: true
+  review: false
+  type: oral_seminar
+  invited: true
+  lang: en
+  names: [Yosuke Fukai]
+  presentor_id: 1
+  title: "Liquid crystal experiment and numerical simulation for curved KPZ interfaces"
+  seminar:
+      group: "Laboratoire Matière et Systèmes Complexes"
+      place: [Universitè Paris Diderot, Paris, France]
+  presentation_date: 2015/7/6
+
+
+- international: true
+  review: false
+  type: poster_conference
+  invited: false
+  lang: en
+  names: [Yosuke Fukai, Kazumasa A. Takeuchi]
+  presentor_id: 1
+  title: "Deterministic Spatio-temporal Chaos and Stochastic Fluctuating Interface"
+  conference:
+      name: "Winter School for Statistical Mechanics / Frontiers of Statistical Mechanics: From Non-equilibrium Fluctuations to Active Matter"
+      url: http://sfs-dynamics.jp/150204/
+      place: [Kyoto University, Kyoto, Japan]
+      place_ja: [京都大学, 京都, 日本]
+      date:
+          begin: 2015/02/04
+          end: 2015/02/17
+  presentation_date: 2015/02/09
+
+#国内会議（2015）
+
+- international: false
+  review: false
+  type: poster_conference
+  invited: false
+  lang: ja
+  names: [深井 洋佑,竹内 一将]
+  names_en: [Yosuke Fukai, Kazumasa A. Takeuchi]
+  presentor_id: 1
+  title: "曲率のある初期条件でのKardar-Parisi-Zhang 界面のゆらぎの性質"
+  title_en: "Fluctuation properties of Kardar-Parisi-Zhang interfaces with curved initial conditions"
+  conference:
+      name: "第9回　物性科学領域横断研究会 (領域合同研究会)"
+      name_en: "9th Joint Research Meeting of MEXT National Projects on Condensed-Matter Science"
+      url: http://www.ss.scphys.kyoto-u.ac.jp/TQP/ryoikioudan2015/
+      place: [the University of Tokyo, Tokyo, Japan]
+      place_ja: [東京大学, 東京, 日本]
+      date:
+          begin: 2015/11/13
+          end: 2015/11/15
+  presentation_date: 2015/11/14
+
+- international: false
+  review: false
+  type: oral_conference
+  invited: false
+  lang: ja
+  names: [深井 洋佑,竹内 一将]
+  names_en: [Yosuke Fukai, Kazumasa A. Takeuchi]
+  presentor_id: 1
+  title: "KPZ界面の曲率制御した初期条件での統計性と普遍サブクラス構造"
+  title_en: "Statistical properties of KPZ interfaces with curvature-controlled initial conditions and its subclass structure"
+  number: 16aCR-5
+  conference:
+      name: "2015年 日本物理学会秋季大会"
+      name_en: "2015 Autumn Meeting of The Physical Society of Japan"
+      url: http://www.jps.or.jp/activities/meetings/past.php
+      place: [Kansai University, Osaka, Japan]
+      place_ja: [関西大学千里山キャンパス, 大阪, 日本]
+      date:
+          begin: 2015/09/16
+          end: 2015/09/19
+  presentation_date: 2015/09/16
+
+#国内会議（2014）
+
+- international: false
+  review: false
+  type: oral_conference
+  invited: false
+  lang: ja
+  names: [深井 洋佑,]
+  names_en: [Yosuke Fukai,]
+  presentor_id: 1
+  title: "KPZ普遍クラスに対する様々なアプローチ"
+  title_en: "Various approaches to KPZ universality class"
+  conference:
+      name: "第59回物性若手夏の学校"
+      name_en: "59th Summer School on Condensed Matter Physics"
+      url: https://cmpss.jp/others/ss51_60.html#ss59
+      place: [Hamanako Royal Hotel, Hamamatsu, Japan]
+      place_ja: [浜名湖ロイヤルホテル, 静岡県浜松市, 日本]
+      date:
+          begin: 2014/07/29
+          end: 2014/08/2
+  presentation_date: 2014/07/31
+
+- international: false
+  review: false
+  type: poster_conference
+  invited: false
+  lang: ja
+  names: [深井 洋佑,竹内 一将]
+  names_en: [Yosuke Fukai, Kazumasa A. Takeuchi]
+  presentor_id: 1
+  title: "液晶の電気乱流におけるKPZ普遍ゆらぎと初期条件"
+  title_en: "KPZ universal fluctuations in liquid crystal electroconvection and initial conditions"
+  conference:
+      name: "第59回物性若手夏の学校"
+      name_en: "59th Summer School on Condensed Matter Physics"
+      url: https://cmpss.jp/others/ss51_60.html#ss59
+      place: [Hamanako Royal Hotel, Hamamatsu, Japan]
+      place_ja: [浜名湖ロイヤルホテル, 静岡県浜松市, 日本]
+      date:
+          begin: 2014/07/29
+          end: 2014/08/02
+  presentation_date: 2014/07/31
+
+

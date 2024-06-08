@@ -1,0 +1,95 @@
+basics:
+  email: ysk@yfukai.net
+  image: ''
+  label: Researcher
+  location:
+    address: 2-2-3 Minatojima-minamimachi, Chuo-ku
+    city: Kobe City
+    countryCode: JA
+    postalCode: 650-0047
+    region: Hyogo
+  name: Yohsuke Fukai
+  phone: ''
+  profiles:
+  - network: Twitter
+    url: https://twitter.com/FukaiTY
+    username: FukaiTY
+  summary: A researcher in the field of biophysics. I am interested in understanding
+    the origin of discreteness and robustness of cell differentiation.
+  url: https://yfukai.net
+education:
+- department: Dept. of Physics, Grad. Shool of Science
+  endDate: 2019-03
+  institution: The University of Tokyo
+  location: Tokyo, Japan
+  startDate: 2016-04
+  studyType: Ph. D. course
+  supervisor: Prof. Masaki Sano
+  title: Doctor of Philosophy, Physics, the University of Tokyo
+  titleDate: '2019-03-25'
+  url: https://www.u-tokyo.ac.jp/
+- department: School of Physics, College of Sciences
+  endDate: 2017-12
+  host: Prof. Peter Yunker
+  institution: Georgia Inst. of Technology
+  location: Atlanta, GA, USA
+  startDate: 2017-10
+  studyType: Visiting student
+  url: https://www.gatech.edu/
+- department: Dept. of Physics, School of Science
+  endDate: 2017-09
+  host: Prof. Kazumasa A. Takeuchi
+  institution: Tokyo Inst. of Technology
+  location: Tokyo, Japan
+  startDate: 2015-04
+  studyType: Visiting student
+  url: https://www.titech.ac.jp/
+- department: Dept. of Physics, Grad. Shool of Science
+  endDate: '2016-03-31'
+  institution: The University of Tokyo
+  location: Tokyo, Japan
+  startDate: '2014-04-01'
+  studyType: Master course
+  supervisor: Prof. Masaki Sano
+  title: Master of Science, Physics, the University of Tokyo
+  titleDate: 2016-03
+  url: https://www.u-tokyo.ac.jp/
+- department: ' Dept. of Physics, Faculty of Science'
+  endDate: '2014-03-31'
+  institution: The University of Tokyo
+  location: Tokyo, Japan
+  startDate: '2012-04-01'
+  studyType: Bachelor course
+  title: Bachelor of Science, Physics, the University of Tokyo
+  titleDate: 2014-03
+  url: https://www.u-tokyo.ac.jp/
+- department: College of Arts and Sciences
+  endDate: '2012-03-31'
+  institution: The University of Tokyo
+  location: Tokyo, Japan
+  startDate: '2010-04-01'
+  studyType: Bachelor course
+  url: https://www.u-tokyo.ac.jp/
+languages:
+- fluency: Native speaker
+  icon: ''
+  language: Japanese
+- fluency: Fluent
+  icon: ''
+  language: English
+- fluency: Elementary
+  icon: ''
+  language: Persian
+work:
+- endDate: present
+  name: Nonequilibrium Physics of Living Matter Riken Hakubi Research Team, RIKEN
+    Center for Biosystems Dynamics Research
+  position: Postdoctoral Researcher
+  startDate: '2022-09-30'
+  url: https://riken.jp
+- endDate: '2022-09-30'
+  name: Nonequilibrium Physics of Living Matter Riken Hakubi Research Team, RIKEN
+    Center for Biosystems Dynamics Research
+  position: Special Postdoctoral Researcher
+  startDate: '2019-04-01'
+  url: https://riken.jp

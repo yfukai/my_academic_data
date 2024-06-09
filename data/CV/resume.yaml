@@ -1,15 +1,15 @@
 basics:
-  email: ysk@yfukai.net
+  name: Yohsuke Fukai
   image: ''
   label: Researcher
   location:
     address: 2-2-3 Minatojima-minamimachi, Chuo-ku
     city: Kobe City
+    region: Hyogo
     countryCode: JA
     postalCode: 650-0047
-    region: Hyogo
-  name: Yohsuke Fukai
-  phone: ''
+  email: ysk@yfukai.net
+  phone: '+81-3-5841-4183'
   profiles:
   - network: Twitter
     url: https://twitter.com/FukaiTY
@@ -17,6 +17,21 @@ basics:
   summary: A researcher in the field of biophysics. I am interested in understanding
     the origin of discreteness and robustness of cell differentiation.
   url: https://yfukai.net
+
+work:
+- endDate: present
+  name: Nonequilibrium Physics of Living Matter Riken Hakubi Research Team, RIKEN
+    Center for Biosystems Dynamics Research
+  position: Postdoctoral Researcher
+  startDate: '2022-09-30'
+  url: https://riken.jp
+- endDate: '2022-09-30'
+  name: Nonequilibrium Physics of Living Matter Riken Hakubi Research Team, RIKEN
+    Center for Biosystems Dynamics Research
+  position: Special Postdoctoral Researcher
+  startDate: '2019-04-01'
+  url: https://riken.jp
+
 education:
 - department: Dept. of Physics, Grad. Shool of Science
   endDate: 2019-03
@@ -70,6 +85,7 @@ education:
   startDate: '2010-04-01'
   studyType: Bachelor course
   url: https://www.u-tokyo.ac.jp/
+
 languages:
 - fluency: Native speaker
   icon: ''
@@ -80,16 +96,3 @@ languages:
 - fluency: Elementary
   icon: ''
   language: Persian
-work:
-- endDate: present
-  name: Nonequilibrium Physics of Living Matter Riken Hakubi Research Team, RIKEN
-    Center for Biosystems Dynamics Research
-  position: Postdoctoral Researcher
-  startDate: '2022-09-30'
-  url: https://riken.jp
-- endDate: '2022-09-30'
-  name: Nonequilibrium Physics of Living Matter Riken Hakubi Research Team, RIKEN
-    Center for Biosystems Dynamics Research
-  position: Special Postdoctoral Researcher
-  startDate: '2019-04-01'
-  url: https://riken.jp

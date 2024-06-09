@@ -33,16 +33,17 @@ work:
   url: https://riken.jp
 
 education:
-- department: Dept. of Physics, Grad. Shool of Science
-  endDate: 2019-03
-  institution: The University of Tokyo
+- institution: The University of Tokyo
+  department: Dept. of Physics, Grad. Shool of Science
+  url: https://www.u-tokyo.ac.jp/
   location: Tokyo, Japan
-  startDate: 2016-04
   studyType: Ph. D. course
   supervisor: Prof. Masaki Sano
   title: Doctor of Philosophy, Physics, the University of Tokyo
   titleDate: '2019-03-25'
-  url: https://www.u-tokyo.ac.jp/
+  startDate: 2016-04
+  endDate: 2019-03
+  
 - department: School of Physics, College of Sciences
   endDate: 2017-12
   host: Prof. Peter Yunker

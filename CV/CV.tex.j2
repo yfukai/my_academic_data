@@ -1,0 +1,231 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+% originally derived from https://jblevins.org/projects/cv-template/
+% which is distributed with a comment as follows:
+% "The LaTeX template on which my own CV is based is available below and may be used freely 
+% by anyone interested in creating their own CV or resume in LaTeX." (at 2024-06-04)
+
+\documentclass[letterpaper]{article}
+
+\usepackage{geometry}
+
+\usepackage{indentfirst}
+\usepackage{setspace}
+
+\usepackage{tabularx}
+%change tabular margin
+\renewcommand{\arraystretch}{1.5}
+%for change line in tabular https://tex.stackexchange.com/questions/2441/how-to-add-a-forced-line-break-inside-a-table-cell
+\usepackage{makecell}
+\renewcommand{\cellalign}{tl}
+
+%for accents(for compile in uplatex)
+\usepackage[utf8]{inputenc}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{((( resume.basics.name )))}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{http://yfukai.net/cv/}
+
+% The following metadata will show up in the PDF properties
+\geometry{
+  left=1.5cm, right=1.5cm, top=3cm, bottom=3cm
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\usepackage[breaklinks=true]{hyperref}
+\usepackage[backend=biber, style=phys, doi=true, hyperref=false]{biblatex}
+\addbibresource{mypublications.bib}
+
+\DeclareFieldFormat{doi}{%
+  \mkbibacro{DOI}\addcolon\space
+  \ifhyperref
+    {\href{https://doi.org/#1}{\nolinkurl{#1}}}
+    {\nolinkurl{#1}}}
+
+\begin{document}
+
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  linkcolor = black,
+  citecolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {curriculum vitae,},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\vspace{0.25in}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+((( resume.basics.label )))\\
+\\
+\begin{minipage}[t]{0.5\linewidth}
+  \vspace{0pt} % Ensures top alignment
+  \setstretch{1.2} % Increases the line spacing
+  ((( resume.basics.group | join("\\\\") )))\\
+  ((( resume.basics.institution ))) \vspace{10pt}\\
+  ((( resume.basics.location.address | join("\\\\") )))\\
+  ((( resume.basics.location.city ))), 
+  ((( resume.basics.location.region ))), 
+  ((( resume.basics.location.postalCode ))), 
+  ((( resume.basics.location.country )))
+\end{minipage}
+\begin{minipage}[t]{0.4\linewidth}
+  \vspace{0pt} % Ensures top alignment
+  \bgroup
+  \def\arraystretch{1.2}%
+  \begin{tabular}{ll}
+    Phone: & ((( resume.basics.phone ))) \\
+    Email: & \href{mailto:((( resume.basics.email )))}{\tt ((( resume.basics.email )))} \\
+    Website: & \href{((( resume.basics.url )))}{\tt ((( resume.basics.url )))} \\
+    ((* for profile in resume.basics.profiles -*))
+    ((( profile.network ))): & \href{((( profile.url )))}{\tt ((( profile.username )))} \\
+    ((* endfor *))
+  \end{tabular}
+  \egroup
+\end{minipage}
+
+\bigskip
+\hrulefill
+
+((* if config.include_personal *)) 
+\section*{Personal}
+\begin{itemize}
+\item Born on November 1, 1991.
+\end{itemize}
+((* endif *)) 
+
+((* if resume.work *)) 
+\section*{Work}
+\begin{tabularx}{\linewidth}{l X}
+((* for d in resume.work *))
+    \textbf{((( d.startDate | format_datetime )))-((( d.endDate | format_datetime )))} & 
+    \makecell{((( d.position ))), \\
+    ((( d.name |  add_newline_after_comma ))).}\\
+((* endfor *))
+\end{tabularx}
+((* endif *))
+
+\section*{Education}
+\begin{tabularx}{\linewidth}{l X}
+  ((* for d in resume.education *))
+      \textbf{((( d.startDate | format_datetime )))-((( d.endDate | format_datetime )))} & 
+      ((* if d.title *))
+        ((* set title=d.title.split(", ") *))
+        \makecell{((( d.studyType ))), ((( d.department ))), ((( d.institution )))\\
+        \textbf{((( title | first )))}, ((( title[1:] | join(", ") ))), ((( d.titleDate.split("-") | first ))).}\\
+      ((* elif "course" in d.studyType *))
+        ((( d.studyType ))), ((( d.department ))), ((( d.institution ))).\\
+      ((* elif d.studyType == "Visiting student" *))
+        ((( d.studyType ))) in ((( d.department ))), ((( d.institution ))).\\
+      ((* else *))
+      \makecell{((( d.studyType ))), \\
+        ((( d.institution |  add_newline_after_comma ))).}\\
+      ((* endif *))
+  ((* endfor *))
+\end{tabularx}
+
+\section*{Teaching Experience} 
+\begin{tabularx}{\linewidth}{l X}
+    \textbf{Oct.~2015-Feb.~2016} & \makecell{Teaching assistant of undergraduate class\\
+"Physics experiment II: Phase transitions" (Liquid crystal experiments),\\
+    Dept. of Physics, Faculty of Science, The Univ. of Tokyo.}\\
+\end{tabularx}
+
+\section*{Grants and Fellowships}
+
+\begin{tabularx}{\linewidth}{l X}
+  ((* for d in resume.grants_fellowships *))
+    \textbf{((( d.startDate | format_datetime )))-((( d.endDate | format_datetime )))} & 
+    \makecell{((( d.title )))\\((( d.funder ))).}\\
+  ((* endfor *))
+\end{tabularx}
+
+\section*{Publications}
+
+\begin{itemize}
+((* for mypublication in mypublications -*)) 
+\item \fullcite{(((mypublication.ID)))} 
+((* endfor *))
+\end{itemize}
+
+\section*{International Conference Activities}
+\begin{itemize}
+((* for p in conferences -*))
+  \item (((p.names_connected))), ``(((p.title)))'', (((p.type_str))) presented at ``(((p.conference.name)))'', (((p.conference.place_str))) ((((p.presentation_date)))).
+((* endfor *))
+\end{itemize}
+
+\section*{Seminars}
+\begin{itemize}
+((* for p in seminars -*))
+  \item (((p.names_connected))), ``(((p.title)))'', (((p.seminar.place_str))) ((((p.presentation_date)))).
+((* endfor *))
+\end{itemize}
+
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+    \href{\footerlink}{\texttt{\footerlink}}
+  \end{footnotesize}
+\end{center}
+
+\end{document}

@@ -2,15 +2,23 @@ basics:
   name: Yohsuke Fukai
   image: ''
   label: Researcher
+  group: [Nonequilibrium Physics of Living Matter,Riken Hakubi Research Team]
+  institution: RIKEN Biosystems Dynamics Research Center
   location:
-    address: 2-2-3 Minatojima-minamimachi, Chuo-ku
+    address: ["Room N503, Bldg. C","2-2-3 Minatojima-minamimachi, Chuo-ku"]
     city: Kobe City
     region: Hyogo
-    countryCode: JA
+    country: Japan
     postalCode: 650-0047
   email: ysk@yfukai.net
   phone: '+81-3-5841-4183'
   profiles:
+  - network: ORCID
+    url: https://orcid.org/0000-0002-8860-7178
+    username: 0000-0002-8860-7178
+  - network: GitHub
+    url: https://github.com/yfukai
+    username: yfukai
   - network: Twitter
     url: https://twitter.com/FukaiTY
     username: FukaiTY
@@ -86,6 +94,24 @@ education:
   startDate: '2010-04-01'
   studyType: Bachelor course
   url: https://www.u-tokyo.ac.jp/
+
+grants_fellowships:
+- startDate: '2022-04-01'
+  endDate: present
+  funder: Japan society for the promotion of science
+  title: Grant-in-Aid for Early-Career Scientists
+- startDate: '2019-04-01'
+  endDate: '2022-09-30'
+  funder: RIKEN
+  title: Special Postdoctoral Researcher Program
+- startDate: '2017-04-01'
+  endDate: '2019-03-31'
+  funder: Japan Society for the Promotion of Science
+  title: Research Fellow of the Japan Society for the Promotion of Science (DC2)
+- startDate: '2014-09-01'
+  endDate: '2019-03-31'
+  funder: The University of Tokyo
+  title: Advanced Leading Graduate Course for Photon Science fellowship student
 
 languages:
 - fluency: Native speaker

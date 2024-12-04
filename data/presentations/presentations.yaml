@@ -32,6 +32,45 @@
 
 #国際会議（2024）
 
+# SMC
+- international: true
+  review: true
+  type: poster_conference
+  invited: false
+  lang: en
+  names: [Yohsuke T. Fukai, Tomoya Kujirai, Masatoshi Wakamori, Hitoshi Kurumizaka, Takashi Umehara, Kyogo Kawaguchi]
+  presentor_id: 1
+  title: "Reconstituted long chromatin array reveals modification pattern-dependent structure"
+  number: P-51
+  conference:
+      name: "SMC complexes: orchestrating diverse genome functions"
+      url: https://niki-lab.sakura.ne.jp/NIGIS2024/index.html
+      place: [Plaza Verde, Numazu, Japan]
+      place_ja: [プラサ ヴェルデ, 沼津, 日本]
+      date:
+          begin: 2024/10/15
+          end: 2024/10/18
+  presentation_date: 2024/10/16
+
+# KPZ
+- international: true
+  review: true
+  type: oral_conference
+  invited: false
+  lang: en
+  names: [Yohsuke T. Fukai, Keiichi Tamai, Hiroki Yamaguchi, Tetsuya Hiraiwa]
+  presentor_id: 1
+  title: "Universal interface fluctuations for absorbing phase transitions"
+  conference:
+      name: "Recent developments in Kardar-Parisi-Zhang universality"
+      url: https://sites.google.com/view/kpzkyoto2024/home
+      place: [Kyoto University, Kyoto, Japan]
+      place_ja: [京都大学, 京都, 日本]
+      date:
+          begin: 2024/09/24
+          end: 2024/09/27
+  presentation_date: 2024/09/24
+
 - international: true
   review: true
   type: poster_conference
@@ -50,6 +89,69 @@
           begin: 2024/03/04
           end: 2024/03/06
   presentation_date: 2024/03/04
+
+#国内会議（2024）
+# molbio
+- international: false
+  review: true
+  type: poster_conference
+  invited: false
+  lang: en
+  names: [Yohsuke T. Fukai, Tomoya Kujirai, Masatoshi Wakamori, Hitoshi Kurumizaka, Takashi Umehara, Kyogo Kawaguchi]
+  presentor_id: 1
+  title: "Reconstituted long chromatin array reveals modification pattern-dependent structure"
+  number: 3P-125
+  conference:
+      name: "第47回日本分子生物学会年会"
+      name_en: "The 47th Annual Meeting of the Molecular Biology Society of Japan"
+      url: https://www.aeplan.jp/mbsj2024/index.html
+      place: [福岡国際会議場・マリンメッセ福岡, 福岡, 日本]
+      place_en: [Fukuoka International Congress Center & Marin Messe Fukuoka, Fukuoka, Japan]
+      date:
+          begin: 2024/11/26
+          end: 2024/11/29
+  presentation_date: 2024/11/29
+
+# Hi-C研究会
+- international: false
+  review: false
+  type: oral_conference
+  invited: true
+  lang: ja
+  names: [Yohsuke T. Fukai]
+  presentor_id: 1
+  title: "修飾パターンをもつ長鎖クロマチンの再構成と一分子観察・コンタクトマップ実験による特徴づけ"
+  title_en: "Reconstitution of long chromatin arrays and its characterization by single-molecule observation and contact map experiment"
+  conference:
+      name: "第4回 Hi-C研究会"
+      name_en: "The 4th Hi-C meeting"
+      place: [千葉大学, 千葉, 日本]
+      place_en: [Chiba University, Chiba, Japan]
+      date:
+          begin: 2024/11/14
+          end: 2024/11/15
+  presentation_date: 2024/11/15
+
+# cellbio
+- international: false
+  review: true
+  type: oral_conference
+  invited: true
+  lang: en
+  names: [Yohsuke T. Fukai, Tomoya Kujirai, Masatoshi Wakamori, Hitoshi Kurumizaka, Takashi Umehara, Kyogo Kawaguchi]
+  presentor_id: 1
+  title: "Single-molecule observation of long reconstituted chromatin reveals modification pattern dependency of conformation"
+  number: 3A11
+  conference:
+      name: "第76回日本細胞生物学会大会"
+      name_en: "The 76th Annual Meeting of the Japan Society for Cell Biology"
+      url: https://confit.atlas.jp/guide/event/jscb2024/top
+      place: [つくば国際会議場, つくば, 日本]
+      place_en: [Tsukuba International Congress Center, Tsukuba, Japan]
+      date:
+          begin: 2024/07/17
+          end: 2024/07/19
+  presentation_date: 2024/07/19
 
 #国際会議（2023）
 

@@ -8,6 +8,7 @@ from jinja2 import Environment, FileSystemLoader
 import shutil
 import os
 
+PAST_CONF_YEARS = 5
 script_path = os.path.dirname(os.path.realpath(__file__))
 base_path = os.path.join(script_path,"..")
 data_path = os.path.join(base_path,"data")
@@ -53,6 +54,10 @@ params["mypublications"]=filter(exclude,mypublications.entries)
 params["conferences"]=[]
 params["seminars"]=[]
 for p in presentations :
+    date = datetime.strptime(p["presentation_date"],"%Y/%m/%d")
+    if date.year < datetime.now().year-PAST_CONF_YEARS:
+        continue
+    
     p["names"][p["presentor_id"]-1]=r"\underline{"+p["names"][p["presentor_id"]-1]+"}"
     if not p["international"]:
         continue

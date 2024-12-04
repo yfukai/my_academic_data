@@ -96,6 +96,10 @@ education:
   url: https://www.u-tokyo.ac.jp/
 
 grants_fellowships:
+- startDate: '2024-09-01'
+  endDate: present
+  funder: Japan Science and Technology Agency
+  title: ACT-X Research Area "Life and Information"
 - startDate: '2022-04-01'
   endDate: present
   funder: Japan society for the promotion of science
